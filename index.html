@@ -250,7 +250,7 @@ let newColor8 = new Cesium.Color(red8, green8, blue8, alpha); //70-80
 //----------------------------------------------------
 
 // Load GeoJSON data
-  Cesium.GeoJsonDataSource.load('https://pfplatform.oss-cn-beijing.aliyuncs.com/PAI/pai100m.geojson')
+  Cesium.GeoJsonDataSource.load('https://pfplatform.oss-cn-beijing.aliyuncs.com/PAI/pai1000m.geojson')
   .then(function(dataSource) {
     // Iterate through entities to set color based on PM2.5 value ranges
     dataSource.entities.values.forEach(function(entity) {
